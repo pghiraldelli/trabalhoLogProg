@@ -1,7 +1,7 @@
 import DEMO
 
 criancas :: EpistM
-criancas = ( Pmod [0..7] val acc [3] )
+criancas = ( Pmod [0..7] val acc [7] )
 	where
 		val = [ (0, [P 0, Q 0, R 0]), 
 			(1, [P 0, Q 0, R 1]), 
